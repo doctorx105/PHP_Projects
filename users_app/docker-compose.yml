@@ -9,7 +9,6 @@ services:
       - "8080:80"
     volumes:
       - /e/XAMPP/htdocs/users_app:/var/www/html
-      #- E:\XAMPP\htdocs\:/var/www/html  # تعديل هنا لربط مجلد الكود من الهوست بالحاوية 
     depends_on:
       - db
     restart: unless-stopped
